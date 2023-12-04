@@ -1,0 +1,43 @@
+{
+  "name": "poly-slice",
+  "version": "0.0.1",
+  "description": "PolySlice is a lightweight npm package designed to simplify the process of cutting and splitting GeoJSON polygon using a provided linestring. It offers a straightforward way to perform geometric operations on your spatial data.",
+  "repository": "https://github.com/pcofilada/poly-slice",
+  "author": "Patrick Ofilada <pcofilada@gmail.com> (http://patrickofilada.com)",
+  "keywords": [
+    "geojson",
+    "polygon",
+    "split",
+    "slice",
+    "linestring",
+    "geometry",
+    "spatial",
+    "gis",
+    "shape",
+    "divide",
+    "turf",
+    "map"
+  ],
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "./dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/geojson": "^7946.0.13",
+    "@types/jest": "^29.5.10",
+    "@types/node": "^20.10.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@turf/turf": "7.0.0-alpha.2"
+  }
+}
